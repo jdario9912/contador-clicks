@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body{
+	background-color: #1b1b32;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding-top: 15px;
+	font-family: Lato, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.freecodecampo-logo-contenedor{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+	width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.freecodecamp-logo{
+	height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contador-contenedor-principal{
+	display: inherit;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
